@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="navbar">
+
+    <img src="./logo.svg" alt="" srcset="">
+<div>Collections</div>
+<div>Men</div>
+<div class="line"></div>
+  <div>Women</div>
+  <div class="line"></div>
+
+  <div>About</div>
+  <div class="line"></div>
+
+  <div>Contact</div>
+  <div class="line"></div>
+<div id="cartdiv"  class="cus" >  
+  <img src="./icon-cart.svg" alt="" id="cart" >
+    <div id="numcart">0</div>
+</div>
+  <img src="./image-avatar.png" alt="" class="cus" >
+  </nav>
+ <div id="main-fram">
+<div id="slider">
+  <div id="showimg" class="showimg2"></div>
+<img src="./image-product-1-thumbnail.jpg" alt="">
+<img src="./image-product-2-thumbnail.jpg" alt="">
+<img src="./image-product-3-thumbnail.jpg" alt="">
+<img src="./image-product-4.jpg" alt="">
+
+</div>
+
+<div id="showpro" class="active"> 
+   <img src="./image-product-1.jpg" alt="">
+  <img src="./image-product-2.jpg" alt="">
+<img src="./image-product-3.jpg" alt="">
+<img src="./image-product-4-thumbnail.jpg" alt="">
+
+</div>
+<div id="dcard">
+<div>
+  <h1>Fall Limited Edition Sneakers</h1>
+<p>  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+</p>
+
+<div>  $125.00 <span>50%</span></div>
+ <div>$250.00</div> 
+  <div id="numpec">
+      <button type="button" class="m" id="plus"><img src="./icon-plus.svg"></button>
+          <div id="numpic">0</div>
+      <button type="button" class="m" id="minus"><img src="./icon-minus.svg"></button>
+    <button type="button" id="btncart"><a ><img src="./icon-cart.svg" alt=""></a>Add to cart</button>    
+ </div>
+<div id="cardminu" class="active">
+
+  <img src="./icon-close.svg" alt="close" id="closeimg">
+   <div id="pro">
+    <div class="img"></div>
+    <div class="pronam"></div>
+      <div class="propriz" id="prize"></div>
+      <div id="arrbtn">
+  <button type="button"class="btn">&#10094</button>
+  <div class="numitem" id="numitem">1</div>
+  <button type="button" class="btn">&#10095</button>
+  
+ <button type="button">chickout</button>
+ <img src="icon-delete.svg" alt="" id="remove" >
+
+
+</div>
+  </div>
+  </div>
+</div>
+
+</div>
+
+ </div>
+
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/mohamedannany2022">Mohamed Yossry</a>.
+  </footer>
+<script src="js.js"></script>
+  
+</body>
+</html>

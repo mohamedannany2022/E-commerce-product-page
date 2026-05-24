@@ -1,0 +1,10 @@
+{
+    
+      "prodect1":{
+        "ID":2,
+        "NAME":"FRIST PIECE",
+        "PRICE":250,
+        "IMG":"./image-product-1-thumbnail.jpg"
+      }
+    
+    }
